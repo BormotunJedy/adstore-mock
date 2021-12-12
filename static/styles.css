@@ -1,0 +1,56 @@
+.title {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.offer-grid .column,
+.offer-grid .columns {
+    margin: 8px;
+}
+
+.offer-grid .row,
+.offer-grid .rows {
+    margin-bottom: 0;
+}
+
+.offer-widget {
+    background: #eeeeee;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    min-height: 176px;
+}
+
+.offer-widget__button-title {
+    background: #c7ea46;
+    width: 90%;
+    margin: auto;
+}
+
+.legal-info {
+    font-size: 1.25rem;
+}
+
+.legal-info__block-title {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .offer-grid .columns {
+        width: 22%;
+    }
+}
