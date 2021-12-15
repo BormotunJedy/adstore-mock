@@ -10,8 +10,6 @@
 .offer-grid .column,
 .offer-grid .columns {
     margin: 8px;
-    display: flex;
-    justify-content: center;
 }
 
 .offer-grid .row,
